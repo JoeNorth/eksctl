@@ -54,14 +54,17 @@ var EndpointServices = []EndpointService{
 	},
 	{
 		Name:         "ssm",
+		Optional:     true,
 		OutpostsOnly: true,
 	},
 	{
 		Name:         "ssmmessages",
+		Optional:     true,
 		OutpostsOnly: true,
 	},
 	{
 		Name:         "ec2messages",
+		Optional:     true,
 		OutpostsOnly: true,
 	},
 	{
