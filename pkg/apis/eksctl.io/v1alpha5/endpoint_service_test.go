@@ -69,11 +69,17 @@ var _ = Describe("Endpoint Service", func() {
 	},
 		Entry("valid endpoint services", optionalEndpointEntry{
 			endpointServiceNames: []string{
+				"ssm",
+				"ssmmessages",
+				"ec2messages",
 				"cloudformation",
 				"autoscaling",
 				"logs",
 			},
 			expectedEndpointServiceNames: []string{
+				"ssm",
+				"ssmmessages",
+				"ec2messages",
 				"cloudformation",
 				"autoscaling",
 				"logs",
